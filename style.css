@@ -1,0 +1,34 @@
+h1{
+    color: darkcyan;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.results{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result{
+    background-color: cadetblue;
+    border-radius: 10px;
+    font-family: sans-serif;
+    margin: 1rem;
+    color: white;
+    width: 15rem;
+    min-height: 10rem;
+    padding: 1rem;
+    box-shadow: 2px 1px 5px 2px #c0c0c0;
+}
+
+.nickname{
+    margin: 0.5rem 0;
+}
+
+.picture>img{
+    width: auto;
+    height: 15rem;
+}
